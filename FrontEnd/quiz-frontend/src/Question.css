@@ -1,0 +1,126 @@
+/* Root container for the Question component */
+.question-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Title for the current question */
+  .question-container h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  /* Question text */
+  .question-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .question-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .question-form input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .question-form input[type="text"]:focus {
+    border-color: #4caf50;
+  }
+  
+  .question-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .question-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Score display */
+  .score-display {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Modal styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .restart-button:hover {
+    background-color: #218838;
+  }
+
