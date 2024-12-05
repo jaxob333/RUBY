@@ -1,0 +1,1 @@
+This is a basic project that shows the interaction between Ruby and React. This project heavily uses the library or gem Devise for its user authentication. This project also uses ActionCable and Websocket to provide real time updates. 
