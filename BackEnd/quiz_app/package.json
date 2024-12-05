@@ -1,0 +1,9 @@
+{
+  "proxy": "http://localhost:4001",
+  "dependencies": {
+    "@rails/actioncable": "^8.0.0"
+  },
+  "scripts": {
+    "build:css": "sass ./app/assets/stylesheets/application.sass.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  }
+}
